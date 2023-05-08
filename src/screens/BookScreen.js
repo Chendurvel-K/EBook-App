@@ -27,9 +27,9 @@ export default function BookScreen() {
   console.log('00000', cart);
   console.log('====================================');
 
-  if (initializing) {
-    return <ActivityIndicator animating={true}/>;
-  }
+  // if (initializing) {
+  //   return <ActivityIndicator animating={true}/>;
+  // }
 
   const handleAddToCart = item1 => {
     item1.quantity = item1.quantity + 1;
